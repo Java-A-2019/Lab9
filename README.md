@@ -5,9 +5,12 @@
 
 这次Lab主要让大家熟悉一些JavaFX的基础知识。JavaFX是用于构建用户图形化界面
 的工具库，可以类比Junit4工具库。另外，Swing和AWT也是构建用户图形化界面的工具库
-，只不过比较推荐使用JavaFx。通过使用JavaFx,我们可是实现这个效果：<br/>
-![calendar1]()
+，只不过比较推荐使用JavaFx。通过使用JavaFx,我们可以实现这个效果：<br/><br/>
+![calendar1](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/calendar1.jpg)
 
+甚至这个效果：<br/>
+
+![calendar2](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/calendar2.jpg)
 
 
 # Lab0
