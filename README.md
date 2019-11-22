@@ -12,6 +12,44 @@
 
 ![calendar2](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/calendar2.jpg)
 
+## JavaFX知识脉络
+* 简单JavaFX程序的启动
+   <br/>
+   学东西，从最简单的东西开始，稍微了解一下一个基本的JavaFX程序，然后在
+   这个程序的基础上扩展你的程序就好了。
+* 熟悉JavaFx的布局方式
+   <br/>
+   JavaFx主要通过各种Panel进行布局，比方说BorderPane, StackPane。在Web编程中，
+   有div, span等元素进行布局；在android中，有LinearLayout, FrameLayout和RelativeLayout
+   ；在C#中，当让也有...总之，GUI的变化，万变不离其宗，就是，布局，控件，事件绑定。
+   有了这三项，你就可以搭建出一个基本能用的程序。如果需要好看，之后有时间再说。
+ 
+ * 熟悉JavaFx的控件
+   <br />
+   各种GUI的控件基本上都是相同的，当你们大一下或者之后学了就知道。学来学去都是
+   Button，Label，输入框，图片等等。在这里，我会介绍几个，但实际上真的灰常简单，
+   大家书上翻一翻基本就可以弄懂了。
+   
+* 熟悉JavaFx的事件绑定
+  <br />
+  这个内容留到下次Lab课再讲了，不然这次内容太多，消化不了。感兴趣的同学，可以提前
+  学习一下第十五章的内容。课本上的东西很多，但是实用的东西并不多，要学会取舍哦！
+  
+* 熟悉JavaFx的界面美化
+  <br />
+  这个内容，可能毛助教来讲比较合适。嗯，大家多去“骚扰”他。
+
+## 启动JavaFx程序
+
+
+## 熟悉JavaFx的布局元素
+
+
+## 熟悉JavaFx的控件
+
+
+
+
 
 # Lab0
 大神A忠告: 不要抄lab, 好好用、多多用搜索引擎！
