@@ -81,7 +81,7 @@ public void start(Stage stage) throws Exception {
     stage.show();
 }
 ```
-启动之后的效果如下：
+启动之后的效果如下：<br />
 ![effect1](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/effect1.jpg)
 
 我们可以看到Scene和Application基本上没有什么卵用。主要是Label和StackPane起了作用。
