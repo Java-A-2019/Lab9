@@ -128,6 +128,62 @@ Demo2则展示了一个Button，由于Button是Region的子类，通过setWidthH
 一个背景图片，中间的一层可以放置高斯模糊。这些需要大家自己尝试了。
 
 ### GridPane, HBox & VBox
+有了重叠布局，之后是网格布局。比方说，上面的日历中，显示数字就用到了表格。
+* GridPane
+<br/>
+含有多行多列的表格。用法如下：
+```java
+@Override
+    public void start(Stage stage) throws Exception {
+        final int WIDTH = 500;
+        final int HEIGHT = 240;
+        // 创建网格布局
+        GridPane pane = new GridPane();
+        pane.setStyle("-fx-background-color:#fff;"); // 设置成灰色
+        setWidthHeight(pane, WIDTH, HEIGHT);
+        pane.setAlignment(Pos.CENTER); // 设置GridPane在父元素（这里是Scene）中居中对齐
+        pane.setHgap(10); // 设置格子元素的水平距离
+        pane.setVgap(10); // 设置格子元素的竖直距离
+
+        // 创建一系列Label
+        for (int row = 0 ; row < 4; row++) {
+            for (int col = 0; col < 7; col++) {
+                Label label = new Label("" + (row * 7 + col + 1));
+                setWidthHeight(label, 60, 40);
+                label.setStyle("-fx-background-color: lightgreen;" + // 设置背景色
+                        "-fx-alignment: center; " + // 设置文字居中
+                        "-fx-background-radius: 5;"); // 设置背景的圆角化
+                pane.add(label, col, row);
+            }
+        }
+
+        // 主界面显示
+        Scene scene = new Scene(pane, WIDTH, HEIGHT);
+        stage.setTitle("Demo2");
+        stage.setScene(scene);
+        stage.show();
+    }
+```
+注意，GridPane添加子元素的时候，需要加上row和column参数。另外，它的对齐方式，有
+多种，这里用了setAlignment，和setHAlignment。另外，通过设置style的方式进行格式的
+配置是一种很好的方式（这是以前我室友教我的）。效果如下：
+<br />
+![gridpane](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/gridpane.jpg)
+
+Tip: 多使用idea自动弹出的提示，利用上下键进行查找，这会大大提高你的效率。
+<br />
+![tip](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/tip.jpg)
+
+* HBox & VBox
+相信你不久之后，就会发现GridPane要实现对齐是如此困难。这个时候，你可以参考一下
+书上HBox和VBox的使用。
+
+### BorderPane
+实话说，我感觉这个Pane不是特别有用，基本可以用其他的Panel代替，这也交给大家自学了。
+
+### GridPane 和 StackPane 结合使用
+将GridPane和StackPane结合起来，基本可以完成很多布局了。下面展示一下一个简单的：
+
 
 ## 熟悉JavaFx的控件
 
