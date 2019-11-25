@@ -36,7 +36,6 @@ public class StackPaneDemo extends Application {
 
         // 主界面显示
         Scene scene = new Scene(pane, WIDTH, HEIGHT);
-        stage.setTitle("Demo2");
         stage.setScene(scene);
         stage.show();
     }

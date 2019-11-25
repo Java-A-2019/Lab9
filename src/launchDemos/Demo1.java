@@ -28,7 +28,6 @@ public class Demo1 extends Application {
 
         // 主界面显示
         Scene scene = new Scene(pane, 200, 250);
-        stage.setTitle("Demo1");
         stage.setScene(scene);
         stage.show();
     }
