@@ -90,10 +90,43 @@ public void start(Stage stage) throws Exception {
 
 <br/>
 Demo2则展示了一个Button，由于Button是Region的子类，通过setWidthHeight方法，
-可以进行大小的设置，更加方便。大家自行探究！
+可以进行大小的设置，更加方便。大家自行探究！效果如下图：
+<br/>
+![effect2](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/effect1.jpg)
 
 ## 熟悉JavaFx的布局元素
+### StackPane
+它会将放入的控件，一个个重叠起来。相当于你往桌面上面放卡片，它们会堆起来。我们看一下
+代码：
+```java
+@Override
+    public void start(Stage stage) throws Exception {
+        final int WIDTH = 1200;
+        final int HEIGHT = 600;
+        // 新建三个不同大小的Label
+        // code ...
 
+        // 连续放入三个Label
+        StackPane pane = new StackPane();
+        pane.getChildren().add(greenLabel);
+        pane.getChildren().add(yellowLabel);
+        pane.getChildren().add(redLabel);
+        pane.setStyle("-fx-background-color:#aaa;"); // 设置成灰色
+
+        // 主界面显示
+        // code ...
+    }
+```
+
+具体代码在LayoutDemos的StackPaneDemo.java下面。
+首先创建三个不同颜色的Label，然后依次将他们放入StackPane中。看下效果：
+<br/>
+![stackpane](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/stackpane.jpg)
+
+这个界面虽然看起来很难看，但是稍微修改一下就能达到不同的效果，比方说，最底下可以放置
+一个背景图片，中间的一层可以放置高斯模糊。这些需要大家自己尝试了。
+
+### GridPane, HBox & VBox
 
 ## 熟悉JavaFx的控件
 
