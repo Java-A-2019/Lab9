@@ -132,6 +132,7 @@ Demo2则展示了一个Button，由于Button是Region的子类，通过setWidthH
 * GridPane
 <br/>
 含有多行多列的表格。用法如下：
+
 ```java
 @Override
     public void start(Stage stage) throws Exception {
@@ -164,17 +165,21 @@ Demo2则展示了一个Button，由于Button是Region的子类，通过setWidthH
         stage.show();
     }
 ```
+
 注意，GridPane添加子元素的时候，需要加上row和column参数。另外，它的对齐方式，有
 多种，这里用了setAlignment，和setHAlignment。另外，通过设置style的方式进行格式的
 配置是一种很好的方式（这是以前我室友教我的）。效果如下：
 <br />
+
 ![gridpane](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/gridpane.jpg)
 
 Tip: 多使用idea自动弹出的提示，利用上下键进行查找，这会大大提高你的效率。
 <br />
+
 ![tip](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/tip.jpg)
 
 * HBox & VBox
+
 相信你不久之后，就会发现GridPane要实现对齐是如此困难。这个时候，你可以参考一下
 书上HBox和VBox的使用。
 
