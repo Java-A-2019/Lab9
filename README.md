@@ -243,7 +243,7 @@ Tip: 多使用idea自动弹出的提示，利用上下键进行查找，这会�
 
 代码的效果如下：
 <br />
-![combination](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/ombination.jpg)
+![combination](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/combination.jpg)
 
 
 
