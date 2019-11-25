@@ -92,7 +92,8 @@ public void start(Stage stage) throws Exception {
 Demo2则展示了一个Button，由于Button是Region的子类，通过setWidthHeight方法，
 可以进行大小的设置，更加方便。大家自行探究！效果如下图：
 <br/>
-![effect2](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/effect1.jpg)
+
+![effect2](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/effect2.jpg)
 
 ## 熟悉JavaFx的布局元素
 ### StackPane
