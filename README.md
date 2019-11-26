@@ -253,7 +253,7 @@ Tip: 多使用idea自动弹出的提示，利用上下键进行查找，这会�
 <br />
 ![task](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/task.jpg)
 
-###要求
+### 要求
 * 内容必须一致，配色可以不同。
 * 将整个项目打包上传到ftp WORK_UPLOAD的lab9目录下，命名为学号+姓名。
 * 截止时间为2019年12月1日23点59分59秒。
