@@ -243,15 +243,20 @@ Tip: 多使用idea自动弹出的提示，利用上下键进行查找，这会�
 
 代码的效果如下：
 <br />
+
 ![combination](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/combination.jpg)
-
-
-
-## 熟悉JavaFx的控件
 
 
 ## 任务
 
+阅读并运行task package下面的ShowGridPane.java，参考它的实现，完成下面红框内的内容。
+<br />
+![task](https://raw.githubusercontent.com/Java-A-2019/Lab9/master/img/task.jpg)
+
+###要求
+* 内容必须一致，配色可以不同。
+* 将整个项目打包上传到ftp WORK_UPLOAD的lab9目录下，命名为学号+姓名。
+* 截止时间为2019年12月1日23点59分59秒。
 
 ## 其他资源
 大家如果有看到什么比较好的资源可以共享一下，我搜了一下，感觉没什么好推荐的。
